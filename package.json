@@ -1,0 +1,36 @@
+{
+    "name": "@jeliserver/server",
+    "version": "1.0.0",
+    "description": "jELiDB Server for development",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "jEliDB",
+        "JELI",
+        "jEliJS",
+        "jEli-server"
+    ],
+    "author": "Joseph Gojecks",
+    "license": "MIT",
+    "dependencies": {
+        "atob": "^2.0.3",
+        "body-parser": "^1.18.2",
+        "btoa": "^1.1.2",
+        "chalk": "^2.3.0",
+        "clear": "0.0.1",
+        "clui": "^0.3.6",
+        "figlet": "^1.2.0",
+        "inquirer": "^4.0.1",
+        "lodash": "^4.17.4",
+        "minimist": "^1.2.0",
+        "preferences": "^1.0.2",
+        "touch": "^3.1.0",
+        "jsonfile": "^3.0.0",
+        "fs-extra": "~2.0.0"
+    },
+    "bin": {
+        "jeliserver": "./index.js"
+    }
+}
